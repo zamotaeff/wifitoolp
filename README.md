@@ -1,41 +1,29 @@
-# Wifitool
+# Wifitoolp
 
-### Автоматизация набора утилит aircrack-ng. Написано на C++.
+### Automation of a set of aircrack-ng utilities. Written in Python.
 
 
-## Основные составляющие
+## The main components
 
-- **code.cpp** - 
- Тело программы.
+- **code.py** - 
+  The body of the program.
 
 - **list.txt** -
-  Словарь паролей.
+  Password dictionary.
 
  ## Установка
-1. Устанавливаем компилятор и его зависимости:
+1. Installing the compiler and its dependencies:
 
        apt-get update && apt-get -y install git gcc make
 
-2. Клонируем репозиторий и компилируем программу:
+2. We clone the repository and compile the program:
 	
        git clone https://github.com/fuad00/wifitool && cd wifitool && make
       
-3. Запускаем программу:
+3. Launching the program:
 
        ./wifitool
 	
-## Примечание
-
-### Ну да, нагавнокодил малёха, и что с того? 
-
-1. Протестировано на:
-   - Ubuntu 20.04 [x64]
-   - Raspberry Pi 3b [armhf]
+## Note
  
-2. Идеи/предложения приветствуются
-
-
-
-
-
-![](https://komarev.com/ghpvc/?username=wifitool&color=blue&label=Просмотров)
+ Ideas/suggestions are welcome
