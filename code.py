@@ -1,4 +1,3 @@
-```python script.py
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -361,3 +360,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     main()
+    
